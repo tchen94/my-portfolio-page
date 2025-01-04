@@ -29,9 +29,9 @@ export default function RootLayout({
       lang="en"
       className={`${sen.variable} ${kode_mono.variable} antialiased`}
     >
-      <body className="font-[family-name:var(--font-sen)] min-h-screen flex flex-col">
-        <main className="flex-grow">
-          <NavBar />
+      <body className="flex flex-col min-h-svh justify-between font-[family-name:var(--font-sen)]">
+        <NavBar />
+        <main className="grow">
           {children}
           <Footer />
         </main>

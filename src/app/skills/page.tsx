@@ -17,7 +17,7 @@ export default function SkillsPage() {
             Frameworks and languages I currently use
           </p>
         </div>
-        <div className="flex md:flex-row flex-col md:items-center justify-center mb-5 ml-5">
+        <div className="flex lg:flex-row flex-col md:items-center justify-center mb-5 ml-5">
           <h1 className="font-[family-name:var(--font-kode-mono)] text-l md:text-xl md:mr-10 mb-5">
             Frontend Languages <br />
             and Frameworks
@@ -29,7 +29,7 @@ export default function SkillsPage() {
             <TechStack techArray={FRONTENDTECHBOTTOM} />
           </div>
         </div>
-        <div className="flex md:flex-row flex-col md:items-center justify-center ml-5">
+        <div className="flex lg:flex-row flex-col md:items-center justify-center ml-5">
           <h1 className="font-[family-name:var(--font-kode-mono)] text-l md:text-xl md:mr-10">
             Backend, Database <br />
             and Other Techs
@@ -42,7 +42,7 @@ export default function SkillsPage() {
           </div>
         </div>
         <Image
-          className="mt-5"
+          className="mt-5 pb-20"
           src="/programmer.png"
           alt="Programmer"
           width={700}

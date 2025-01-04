@@ -2,7 +2,7 @@ import getCurrentYear from "../utils/utils";
 
 const Footer = () => {
   return (
-    <footer className="absolute text-xs inset-x-0 flex justify-end md:right-8 right-5 md:bottom-[10px]">
+    <footer className="text-xs flex md:justify-end justify-center pt-10 md:mr-10 right-5 sticky md:top-[95vh]">
        {`© ${getCurrentYear()} - All Rights Reserved`}
     </footer>
   );
