@@ -170,7 +170,8 @@ export default function ContactPage() {
             <p className="mt-10">
               <strong>
                 If it doesn&apos;t send, please try refreshing<br/> the page! Sometimes it can be your 
-                browser&apos;s extensions, please try your mobile phone.
+                browser&apos;s extensions. If issues persist, please try this on your mobile phone.<br/> 
+                Working with Web3form for a solution to this matter.
               </strong>
             </p>
           </form>
