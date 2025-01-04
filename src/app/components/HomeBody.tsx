@@ -37,7 +37,7 @@ export const HomeBody = () => {
           <ExternalLinks />
         </div>
         <Image
-        className="md:ml-20 rounded-full mt-20 shadow-circle size-64 ml-10 md:size-max"
+        className="md:ml-20 rounded-full mt-10 shadow-circle size-60 ml-2 md:size-max"
         src="/tchen.png"
         alt="Professional portrait"
         width={600}
