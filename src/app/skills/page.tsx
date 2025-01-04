@@ -12,7 +12,7 @@ export default function SkillsPage() {
   return (
       <div className="flex flex-col items-center justify-center mt-[100px] md:mt-[200px] md:ml-10 h-screen md:h-full md:gap-4">
         <div className=" flex flex-col mb-10">
-          <h1 className="animate-fadeintop text-2xl md:text-[80px]">Tech Stack</h1>
+          <h1 className="animate-fadeintop md:text-center text-[50px]">Tech Stack</h1>
           <p className="animate-fadeintop text-center font-bold text-white md:mt-5">
             Frameworks and languages I currently use
           </p>

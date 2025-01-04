@@ -9,7 +9,7 @@ import {
 export default function ProjectsPage() {
   return (
     <div className="flex flex-col mt-20 md:mt-20 sm:px-16 px-6 max-w-7xl w-full h-full mx-auto ">
-      <h1 className="text-[30px] md:text-[50px] md:mb-10 mb-3">Projects</h1>
+      <h1 className="text-[50px] md:mb-10 mb-3">Projects</h1>
       <div className="flex flex-col items-start gap-5 w-full  mb-10 justify-between animate-fadeinleft">
         <div className="flex flex-col md:flex-row md:p-4 bg-gray-700 rounded-xl md:gap-2">
           <div className="flex flex-col md:flex-row p-4 gap-5">
