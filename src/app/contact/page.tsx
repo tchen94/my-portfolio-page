@@ -170,7 +170,7 @@ export default function ContactPage() {
             <p className="mt-10">
               <strong>
                 If it doesn&apos;t send, please try refreshing<br/> the page! Sometimes it can be your 
-                browser&apos;s extensions, please try your mobile phone
+                browser&apos;s extensions, please try your mobile phone.
               </strong>
             </p>
           </form>
