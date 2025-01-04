@@ -24,9 +24,9 @@ const NavBar = () => {
         {NAVLINKS.map((navLink) => (
           <li key={navLink.href} className="block py-1 px-2 md:py-2 md:px-3">
             <Link
-              className={clsx("relative text-sm md:text-lg w-fit block after:block after:content-[''] after:absolute after:h-[4px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center",
+              className={clsx("relative text-sm md:text-lg w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center",
                 {
-                  'underline underline-offset-[8px] decoration-white decoration-4': pathName === navLink.href
+                  'underline underline-offset-[5px] md:underline-offset-[8px] decoration-white decoration-4': pathName === navLink.href
                 }
               )}
               href={navLink.href}
