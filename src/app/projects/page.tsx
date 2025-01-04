@@ -18,7 +18,7 @@ export default function ProjectsPage() {
                 <h3 className="text-[30px] font-bold">HeartView Beat Editor</h3>
               </header>
               <div className="flex flex-col">
-                <p className="text-white">
+                <p className="text-white text-justify">
                   HeartView Beat Editor is a cardiac data preprocessor used by
                   health informatics researchers to validate and manipulate
                   data.
@@ -51,10 +51,10 @@ export default function ProjectsPage() {
               <header className="">
                 <h3 className="text-[30px] font-bold">My Portfolio!</h3>
               </header>
-              <p className="text-white">
+              <p className="text-white text-justify">
                 Really enjoyed and had a fun time developing this portfolio
                 page. Developing this portfolio allowed me to explore
-                <br /> the depths and quirks of Next.js and the infamous
+                the depths and quirks of Next.js and the infamous
                 TypeScript for it&apos;s optional static typing.
               </p>
               <div className="flex flex-row">

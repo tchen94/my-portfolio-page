@@ -5,7 +5,7 @@ import { ExternalLinks } from "./ExternalLinks";
 
 export const HomeBody = () => {
   return (
-      <div className="flex flex-col md:flex-row pt-[200px] items-center max-w-7xl mx-auto md:h-full h-screen">
+      <div className="flex flex-col md:flex-row md:pt-[200px] pt-[100px] items-center max-w-7xl mx-auto md:h-full h-screen">
         <div className="flex flex-col md:gap-5">
           <h1 className="text-[48px] md:text-[90px] leading-[55px] md:leading-[100px] mb-5">
             Hi, I&apos;m <br /> Tim Chen

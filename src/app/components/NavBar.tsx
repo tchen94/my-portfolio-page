@@ -8,19 +8,19 @@ import clsx from "clsx";
 const NavBar = () => {
   const pathName = usePathname();
   return (
-    <nav className="w-full flex flex-row items-center justify-end md:p-4">
+    <nav className="w-full flex flex-row justify-between md:p-4 bg-[--background] z-5">
       <Link
-        className="fixed justify-start left-5 top-5 shadow-circle rounded-full"
+        className="flex items-start justify-between sticky left-3 "
         href={"/"}
       ><Image
-        className="rounded-lg"
+         className="rounded-full shadow-circle mt-3"
          src="/coolcat.png"
          alt="Cool Cat"
          width={45}
          height={45}
       />
       </Link>
-      <ul className="flex flex-row fixed top-5 md:right-5 right-1">
+      <ul className="flex fixed sticky items-center  md:top-7 md:right-5 right-1">
         {NAVLINKS.map((navLink) => (
           <li key={navLink.href} className="block py-1 px-2 md:py-2 md:px-3">
             <Link
